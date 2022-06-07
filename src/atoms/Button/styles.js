@@ -8,6 +8,7 @@ export const Container = styled.button`
   background-color: #e73634;
   border: 1px solid #e73634;
   color: #fff;
+  cursor: pointer;
 `;
 
 export const Text = styled.span`

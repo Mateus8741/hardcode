@@ -16,12 +16,13 @@ const ProductInformation = () => {
           <h6>Para empreendedores sem time de tecnologia.</h6>
           <div
             style={{
-              width: "100%",
+              height: 595,
               flexDirection: "row",
               position: "absolute",
-              top: "50%",
+              top: "20%",
               bottom: 0,
-              transform: "translateY(-55%)",
+              left: 0,
+              right: 0,
               zIndex: -1,
             }}
           >
@@ -30,8 +31,8 @@ const ProductInformation = () => {
               width="648"
               height="609.09"
               style={{
-                transform: "translateX(-45%) translateY(20%)",
-                marginRight: "-10%",
+                transform: "translateX(-25%)",
+                marginRight: 20,
               }}
             />
             <S.BackgroundImage src={Rhcp} width="766" height="595" />

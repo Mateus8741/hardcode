@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 45%;
   margin-left: 160px;
+  padding-top: 100px;
 
   h1 {
     color: #fff;
@@ -23,7 +24,7 @@ export const Container = styled.div`
     color: #fff;
     font-size: 32px;
     font-weight: 400;
-    padding-right: 150px;
+    margin-right: 150px;
     margin-top: 24px;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
@@ -36,8 +37,7 @@ export const Background = styled.div`
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%;
-  height: 100%;
+  width: auto;
 `;
 
 export const BackgroundImage = styled.img`
